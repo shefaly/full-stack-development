@@ -1,0 +1,12 @@
+h1{
+    color:blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+p{
+    color: chocolate;
+    text-align: initial;
+    text-transform: capitalize;
+    font-style: oblique;
+}
