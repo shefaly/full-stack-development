@@ -1,0 +1,72 @@
+    1  git --version
+    2  pwd
+    3  ls
+    4  ls-a
+    5  ls -a
+    6  cd Desktop/
+    7  cd WT lab/
+    8  cd sem3/
+    9  cd sem3
+   10  cd Raptor
+   11  cd crt
+   12  cd ..
+   13  mkdir fullstackdevelop
+   14  ls
+   15  cd fullstackdevelop
+   16  touch full_stack.txt
+   17  ls
+   18  cat full_stack.txt
+   19  echo "full stack developer" > full_stack.txt
+   20  cat full_stack.txt
+   21  echo "HTML and CSS" > full_stack.txt
+   22  cat full_stack.txt
+   23  echo "javascript" >> full_stck.txt
+   24  cat full_stack.txt
+   25  echo "javascript" >> full_stack.txt
+   26  cat full_stack.txt
+   27  nano full_stack.txt
+   28  cat full_stack.txt
+   29  nano data.txt
+   30  ls
+   31  nano data.txt
+   32  ls
+   33  rm full_stck.txt
+   34  ls
+   35  rm --help
+   36  mkdir git
+   37  ls
+   38  git init
+   39  git status
+   40  fit add full_stack.txt
+   41  git add full_stack.txt
+   42  git status
+   43  git commit -m "First Commit"
+   44  git config --global user.email 'shefalykasam@gmail.com"
+   45  git config --global user.email 'shefalykasam@gmail.com'
+   46  git config --global user.name 'shefaly'
+   47  git config user.email
+   48  git config user.name
+   49  git commit -m "First Commit"
+   50  clear
+   51  nano full_stack.txt
+   52  git status
+   53  git add full_stack.txt
+   54  git commit -m "Second Commit"
+   55  git log
+   56  mkdir full-stack-development
+   57  ls
+   58  git remote -help
+   59  git remote add full-stack-development https://github.com/shefaly/full-stack-development
+   60  git remote show
+   61  git remote -v
+   62  git pull full-stack-development master
+   63  git push -u full-stack-development
+   64  git push --set upstream full-stack-development
+   65  git push --set upstream full-stack-development master
+   66  git push --set-upstream full-stack-development master
+   67  git push -f --set-upstream full-stack-development master
+   68  git push -f --set-upstream full-stack-development master
+   69  git push -f --set-upstream full-stack-development master
+   70  git push -f --set-upstream full-stack-development master
+   71  git push -f --set-upstream full-stack-development master
+   72  history
