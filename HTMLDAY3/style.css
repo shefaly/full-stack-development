@@ -1,0 +1,34 @@
+.a1{color: bisque;}
+.a2{color: blueviolet;}
+.a3{color: coral;}
+.b1{width: 100%;
+    height: 100%;
+    background-image: url('back-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    .b2{
+    width: 70%;
+    height: 50%;background-image: url('bqqack-2.jpg');}
+.b3{
+    width: 70%;
+    height: 50%;background-image: url('back-3.jpg');}
+    .c1{font-style: italic;
+        font-weight: lighter;
+        font-size: large;
+        font-variant: small-caps;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .c2{font-style: normal;
+        font-size: smaller;
+        font-weight: bold;
+        font-variant: initial;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .c3{font-style: oblique;
+        font-size: x-large;
+        font-variant: initial;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }

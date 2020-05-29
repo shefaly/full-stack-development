@@ -1,0 +1,10 @@
+a{
+    color: hotpink;
+}
+a:hover{
+    color: indigo;
+    background-color:yellowgreen;
+}
+a:active{
+    color:black;
+}

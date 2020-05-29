@@ -1,0 +1,19 @@
+a{
+    color: palevioletred;
+}
+a:link{
+    color: plum;
+    text-decoration: none;
+    display:inline-block;
+    padding-left: 10px;
+    text-align: center;
+}
+a:hover{
+    color: powderblue;
+    background-color: rebeccapurple;
+    font-size: large;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}

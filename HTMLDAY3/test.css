@@ -1,0 +1,36 @@
+.a1{text-align: center;
+    border-style: dotted;
+border-width: 5px;
+border-radius: 6px;
+border-color: lightslategray;
+margin: 40px;
+padding:30px}
+.a2{
+    text-align: center;
+    border-style: double;
+border-width: 3px;
+border-radius: 3px;
+border-color:palegoldenrod;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 100px;
+margin-bottom: 10px;}
+.a3{text-align: center;
+border-style: groove;
+border-width: 10px;
+border-radius: 4px;
+border-color: khaki;
+margin: 25px;
+padding-left: 100px;
+padding-right: 50px;
+padding-top: 20px;
+}
+.a4{
+    border-right-color: lawngreen;
+    border-left-color: lightblue;
+    border-top-color: lightcoral;
+    border-bottom-color: lightpink;
+    border-width: 5px;
+    border-style: double;
+    text-align: center;
+}
