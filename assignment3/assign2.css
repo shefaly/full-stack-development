@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    border: 3px solid black;
+    background-color:white;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  ul a {
+    display: block;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  ul a:hover {
+    color: cadetblue;
+    background-color: lightcyan;
+    text-decoration: underline;
+    font-size: large;
+  }
+  ul a:active {
+    color:lightsalmon;
+  }
