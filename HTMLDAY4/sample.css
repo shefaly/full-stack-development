@@ -1,0 +1,33 @@
+table,th,td{
+    border: 2px solid black;
+}
+table{
+    width: 100%;
+}
+input[type=text],input[type=password]{
+    width:98%;
+    margin:8px;
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid red;
+   border-radius: 5px;
+   background-color: darkgray;
+   color: white;
+}
+label{
+     font-family: 'Times New Roman', Times, serif ;
+     font-variant: small-caps;
+     color:darkblue;
+}
+th p{
+    font-size: x-large;
+    font-family: monospace;
+    font-variant: small-caps;
+    text-align:center;
+}
+input[type=button]{
+    font-size: large;
+    font-weight: bolder;
+    background-color: darkgray;
+    color: wheat;
+}
