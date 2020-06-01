@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Validation Question1
+  </title>
+  <script>
+    function myfun() {
+      var user;
+      var pass;
+      var user = document.getElementById("us").value;
+      var pass = document.getElementById("ps").value;
+      var reg1 = /^[A-Z][a-z A-z 0-9]{3,7}$/;
+      var reg2 = /^(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[^a-zA-Z0-9])(?!.*\s).{8,20}$/;
+      if (reg1.test(user) && reg2.test(pass)) {
+        window.alert("verified");
+      } else {
+        window.alert("not verified");
+      }
+    }
+  </script>
+  <body>
+      <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <div id="d1">
+      Full name:<input type="textbox" id="fn" placeholder="type name" /><br /><br>
+      username:<input type="text" id="us" placeholder="type username"/><br /><br>
+      password:<input type="password" id="ps" placeholder="enter password"><br /><br>
+      Address:<textarea rows="10" cols="20" placeholder="enter address"></textarea>
+      > <br /><br>
+      Department:<br />
+      <input type="radio" id="cse" name="dept" value="cse" />
+      <label for="cse">CSE</label><br />
+      <input type="radio" id="ece" name="dept" value="ece" />
+      <label for="ece">ECE</label><br />
+      <input type="radio" id="mech" name="dept" value="mech" />
+      <label for="mech">MECH</label><br /><br>
+    </div>
+    <button type="submit" onclick="myfun()">submit</button>
+  </body>
+</head>
