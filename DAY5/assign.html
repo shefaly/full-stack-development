@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script>
+    function test(){
+        var name,pass;
+        name=document.getElementById('txtname').value;
+        pass=document.getElementById('pass').value;
+        if(name!=pass){
+            window.alert('unsuccessful login');
+
+        }
+        else{
+            window.alert('successful login');
+        }
+    }
+</script>
+    </head>
+    Username:<input type="text" id="txtname"><br><br>
+    Password:<input type="password" id="pass"><br>
+    <button type="button" onclick="test()">submit</button>
+</html>
