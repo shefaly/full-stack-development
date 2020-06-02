@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>validate mobile n umber</title>
+        <script>
+            function validmobile(){
+                var val=document.getElementById('txtmobile').value;
+                if(/^[6-9][0-9]{9}$/.test(val)){
+                window.alert('valid');}
+                else{
+                window.alert('not valid');
+                document.getElementById('txtmobile').focus();
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="txtmobile"><br>
+        <button type="button" onclick="validmobile()">validate</button>
+    </body>
+</html>
