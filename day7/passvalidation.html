@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>password validation</title>
+        <script>
+            function passvalidate(){
+                var valpass=document.getElementById('pass').value;
+                if(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(/=.*[!@#$]).{5,12}$/.test(valpass)){
+                    document.getElementById('error').innerHTML="valid password";
+                }
+                else{
+                    document.getElementById('error').innerHTML="invalid password";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="password" id="pass">
+        <br/>
+        <span id="error"></span>
+        <button type="button" onclick="passvalidate()">validation</button>
+    </body>
+</html>
