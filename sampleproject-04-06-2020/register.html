@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link href="project.css" rel="StyleSheet">
+        <script src="register.js"></script>
+    </head>
+    <body>
+        <div class="i1">
+            <img src="image.png" width="120px" height="120px">
+        </div>
+        <div class="i2">
+            <img src="image.png" width="120px" height="120px">
+        </div>
+        <div class="s1">
+            <h1>MY MARKET</h1>
+        </div>
+        <ul>
+            <a href="home.html" >home</a>
+            <a href="aboutus.html">about us</a>
+            <a href="contactus.html">contact us</a>
+            <a href="login.html">login</a>
+            <a href="feedback.html">feedback</a>
+            <a href="register.html">registration</a>
+         </ul>
+         <h1 class="h2">Registration</h1>
+         <form method="POST" target="#" onsubmit="validate()" id="f1" >
+             Username:<input type="text" id="us"><br><br>
+             Mobile Number:<input type="tel" id="mn"><br><br>
+             Address:<textarea cols="50" rows="10" id="add"></textarea><br><br>
+             DOB:<input type="text" id="dt"><br><br>
+             Emailid:<input type="text" id="eid"><br><br>
+             Retype Emailid:<input type="text" id="reid"><br><br>
+            Create Password:<input type="password" id="ps"><br><br>
+            Confirm Password:<input type="password" id="rps"><br> <br>
+            <label>
+                <input type="checkbox" name="term" id="tp" />By signing up to this  you agree
+                to your <a href="#service">Terms of Service</a> and
+                <a href="#policy">Privacy Policy</a>
+              </label><br>
+              <div class="button">
+                  <input type="submit" class="button" value="submit">
+                  <input type="button" onclick="myFunction()" value="clear" />
+              </div>
+            
+         </form>
+    </body>
+</html>

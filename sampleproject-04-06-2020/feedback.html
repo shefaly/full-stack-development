@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <link href="project.css" rel="StyleSheet">
+        <script src="feedback.js"></script>      
+    </head>
+    <body>
+        <div class="i1">
+            <img src="image.png" width="120px" height="120px">
+        </div>
+        <div class="i2">
+            <img src="image.png" width="120px" height="120px">
+        </div>
+        <div class="s1">
+            <h1>MY MARKET</h1>
+        </div>
+        <ul>
+            <a href="home.html" >home</a>
+            <a href="aboutus.html">about us</a>
+            <a href="contactus.html">contact us</a>
+            <a href="login.html">login</a>
+            <a href="feedback.html">feedback</a>
+            <a href="register.html">registration</a>
+         </ul>
+         <h1>Feedback</h1>                  
+         <form method="POST">
+             Username:<input type="text" id="txtname"><br/><br>
+             Emailid:<input type="text" id="txtemail"><br><br>
+        Rollno:<input type="number" id="num"><br><br>
+        Feedback:<textarea cols="50" rows="10" id="feed"></textarea><br>
+        <div class="button">
+            <button type="button" onclick="validate()">Submit</button>
+            <input type="reset" onclick="myFunction()" value="clear">
+          </div>
+         </form>
+    </body>
+</html>

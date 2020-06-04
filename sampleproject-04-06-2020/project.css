@@ -1,0 +1,84 @@
+body{
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.i1{
+    float: left;
+  
+    margin:15px;
+  
+}
+.i2{
+    float: right;
+    margin: 15px;
+
+}
+.s1{
+    border: 5px solid black;
+    text-align: center;
+    font-size: x-large;
+    padding:15px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+ul{
+    text-transform: capitalize;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    background-color: rgb(187, 185, 185);
+    word-spacing: 20px;
+    
+}
+ul a{
+    display: inline-block;
+    color: red;
+    font-size: x-large;
+    text-decoration: none;
+    padding:5px
+}
+ul a:hover{
+    color: teal;
+  background-color:yellow;
+}
+ul a:active{
+    color:blue;
+}
+.i3{
+    border: 3px solid black;
+    margin: 15px;
+
+}
+.c1{
+    text-align: center;
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 300px;
+    padding:100px;
+    color:lightcoral;
+}
+.s2{
+    text-align: center;
+    color: rgb(23, 23, 252);
+    background-image: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 300px;
+    padding:100px;
+    font-size:xxx-large;
+    font-weight: bolder;
+}
+form{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.button{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+}
