@@ -1,0 +1,17 @@
+.card{
+    margin: 100px;
+    height: 400px;
+
+width: 400px;
+background-color: rgba(255, 255, 255, 0.589) !important;
+}
+.social_icon span{
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(18, 219, 255);
+    }
+ body{
+     background-image: url(images.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
