@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $("#btnfadeIn").click(function(){
+         $("#id1").fadeIn(fast);
+        });
+        $("#btnfadeOut").click(function(){
+         $("#id1").fadeOut(2000);
+        });
+        $("#btnToggle").click(function(){
+         $("#id1").toggle(2000);
+        });
+    });
+        </script>
+    </head>
+    <body>
+        <h1 id="id1">GITAM-HYD</h1>
+        <button type="button" id="btnfadeIn">Fade In</button>
+        <button type="button" id="btnfadeOut">Fade Out</button>
+        <button type="button" id="btnToggle">Fade Toggle</button>
+    </body>
+</html>
