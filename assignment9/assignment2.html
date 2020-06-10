@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-2</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+        <link rel="StyleSheet" href="jquery-ui/jquery-ui.min.css">
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+            $("#box1").delay(2000).fadeIn();
+            $("#box2").delay(3000).fadeIn();    
+            $("#box3").delay(4000).fadeIn();
+        });
+        });
+        </script>
+    </head>
+    <body>
+        <button id="btn1">Delay</button>
+     <div id="box1" style="height: 100px; width: 100px; display: none; background-color: crimson;"></div><br>
+     <div id="box2" style="height: 100px; width: 100px; display: none; background-color: rgb(80, 133, 60);"></div><br>
+     <div id="box3" style="height: 100px; width: 100px; display: none; background-color: rgba(20, 207, 220, 0.432);"></div>
+    </body>
+</html>
