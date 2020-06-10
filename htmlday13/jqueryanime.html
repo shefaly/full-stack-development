@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Animel </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+        <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+         $("#btnClick").click(function(){
+             $("div").animate({right:'350px' ,height:'450px', width:'450px'});
+         });
+        });
+        </script>
+        <style type="text/css">
+        div{
+             background-color: cadetblue;
+             color: darkred;
+             height: 250px;
+             width: 250px;
+             position: absolute;
+        }
+        </style>
+    </head>
+    <body>
+        <button type="button" id="btnClick">Animate</button>
+        <div>
+         <h2>Hello</h2>
+        </div>
+    </body>
+</html>
