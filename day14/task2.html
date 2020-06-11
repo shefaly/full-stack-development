@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+    <link rel="StyleSheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#btn").click(function(){
+        var val1=$("#us").val();
+        var val2=$("#ps").val();
+        var val3=$("#em").val();
+        var val4=$("#mn").val();
+        var reg2 = /^(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[^a-zA-Z0-9])(?!.*\s).{8,20}$/;
+        var regn=/^[6-9][0-9]{9}$/;
+        var reg=/^[a-z 0-9 A-z !@#$%^&*()]{6,12}$/;
+        var rege=/^[a-zA-Z0-9._-]{6,12}[@][a-z]{3,15}[.][a-z]{2,6}$/;
+        if(reg.test(val1) && reg2.test(val2)&&rege.test(val3) && regn.test(val4))
+        {
+            window.alert("validated")
+        }
+        else{
+            $('input[type="text"]').css("border","2px solid red");
+            window.alert('Fill username,email id and Password');
+            $('input[type="tel"]').css("border","2px solid red");
+            window.alert('Fill mobile mumber');
+            $('textarea').css("border","2px solid red");
+            window.alert('Fill address');
+        }
+    });
+});
+    </script>
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="Username" >Username</label>
+                <input type="text" class="form-control" id="us" placeholder="Enter Username">
+                </div>
+                <div class="form-group">
+                    <label for="Email" >Email</label>
+                <input type="text" class="form-control" id="em" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="Password" >Password</label>
+                <input type="text" class="form-control" id="ps" placeholder="Enter Password">
+                </div>
+                <div class="form-group">
+                    <label for="mobile numbrer" >Mobile number</label>
+                <input type="tel" class="form-control" id="mn" placeholder="Enter Mobile Number">
+                </div>
+                <div class="form-group">
+                    <label for="Address" >Address</label>
+                <textarea class="form-control" id="ad" placeholder="Enter Address"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary" id="btn">Register</button>
+        </div>
+    </body>
+    </html>

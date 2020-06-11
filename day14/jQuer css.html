@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+      $("#btn1").click(function(){
+          $("#div1").css("background-color" , "lightblue");
+      });
+      $("#btn2").click(function(){
+          $("#div1").css({
+              'background-color':'lightblue',
+              'color':'darkblue',
+              'font-size':'xx-large'
+          });
+      });
+        });
+        </script>
+    </head>
+    <body>
+      <div id="div1">
+          <p>GITAM University</p>
+      </div>
+      <button type="button" id="btn1">Add css properties</button>
+      <button type="button" id="btn2">Multiple Properties</button>
+    </body>
+</html>

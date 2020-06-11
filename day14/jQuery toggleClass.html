@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $("#btn").click(function(){
+            $("#div1").toggleClass();
+        });
+        });
+        </script>
+        <style>
+            .a1{
+              background-color: cadetblue;
+              color: crimson;
+              font-size: xx-large;
+              text-align: center;
+              text-transform: capitalize;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a1" id="div1">
+            <h1>GITAM University</h1>
+        </div>
+        <div>
+            <button id="btn" type="button">ToggleClass</button>
+        </div>
+    </body>
+</html>
