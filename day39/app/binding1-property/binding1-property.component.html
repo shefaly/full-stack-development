@@ -1,0 +1,17 @@
+<h1>Property Binding</h1>
+
+<a [href]="text">Click Here</a><br>
+Firstname:<input type="text" [(ngModel)]="firstname"/><br>
+Lastname:<input type="text" [(ngModel)]="lastname"/><br>
+Age:<input type="text" [(ngModel)]="age"/><br>
+Active:<input type="checkbox" [(ngModel)]="active"><br>
+Gender:<input type="radio" [(ngModel)]="gender" value="male">Male<br>
+<input type="radio" [(ngModel)]="gender" value="male">Female<br>
+Country:
+<select [(ngModel)]="country">
+    <option>India</option>
+    <option>Pakistan</option>
+    <option>USA</option>
+</select>
+<br/>
+<input type="button" value="ChangeData " (click)="ChangeData()">

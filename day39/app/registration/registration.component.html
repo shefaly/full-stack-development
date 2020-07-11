@@ -1,0 +1,10 @@
+<h1> 
+    Registration page renders here
+</h1>
+<form>
+    Username:<input type="text" [(ngModel)]="username"><br>
+    Email ID:<input type="email"[(ngModel)]="email"><br>
+    Password:<input type="password"[(ngModel)]="password"><br>
+    <input type="button" value="Register" (click)="CheckRegs()">
+    {{msg}}
+</form>
