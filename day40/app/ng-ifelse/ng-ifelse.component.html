@@ -1,0 +1,15 @@
+<h1>Example on ngif</h1>
+
+<div *ngIf="x;then template1;else template2">
+
+</div>
+<ng-template #template1>
+<div style="background-color: green;">
+Congrats!!
+</div>
+</ng-template>
+<ng-template #template2>
+    <div style="background-color:red;">
+    Better Luck Next Time
+    </div>
+    </ng-template>

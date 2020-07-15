@@ -1,0 +1,12 @@
+<h1>
+    {{title}}
+</h1>
+<hr>
+<div>
+    <form>
+        Username:<input type="text" [(ngModel)]="username"><br>
+        Password:<input type="password"[(ngModel)]="password"><br>
+        <input type="button" value="Login" (click)="CheckLogin()">
+        <h1>{{msg}}</h1>
+    </form>
+</div>

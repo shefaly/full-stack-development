@@ -1,0 +1,10 @@
+h1{
+    background-color: lightblue;
+    color:darkblue;
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav a{
+    word-spacing: 4px;;
+}

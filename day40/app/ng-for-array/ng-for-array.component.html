@@ -1,0 +1,21 @@
+<h1>
+    ng for example on array object
+</h1>
+<table border="2">
+    <tr>
+        <th>EMPID</th>
+        <th>EMPNAME</th>
+        <th>EMPSALARY</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>
+            {{employee.empid}}
+        </td>
+        <td>
+            {{employee.empname}}
+        </td>
+        <td>
+            {{employee.salary}}
+        </td>
+    </tr>
+</table>
